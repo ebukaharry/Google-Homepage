@@ -5,6 +5,10 @@
     overflow: hidden;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-size: 14px;
     font-family: arial,sans-serif;
@@ -111,6 +115,13 @@ input[type="text"] {
     color: #1a0dab;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .footer-container, .carbon, .footer-nav, .nav1 ul, .nav2 ul {
     display: flex;
 }
@@ -118,7 +129,7 @@ input[type="text"] {
 .footer-container {
     background: #f2f2f2;
     flex-direction: column;
-    margin-top: 8em;
+    /* margin-top: 8em; */
 }
 
 .footer-container, .nav1 ul li a, .nav2 ul li a {
@@ -137,7 +148,7 @@ input[type="text"] {
 }
 
 .nav1 ul, .nav2 ul {
-    padding: 15px 30px;
+    padding: 15px 35px;
 }
 
 .nav1 ul li a, .nav2 ul li a {
@@ -145,6 +156,5 @@ input[type="text"] {
 }
 
 .nav2 ul {
-    margin-right: 50px;
-    padding-left: 0;
+    padding-right: 0;
 }
